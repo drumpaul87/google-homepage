@@ -1,12 +1,13 @@
+-webkit-appearance: none; 
+
 body {
     margin: 0px;
     padding: 0px;
 }
 
 nav {
-    height: 22vh; 
+    height: 20vh; 
     width: 100%;
-    list-style: none 
 }
 
 ul {
@@ -19,6 +20,7 @@ ul {
 
 #nav-right {
     float: right;
+    margin-right: 25px;
 }
 
 li {
@@ -29,4 +31,17 @@ li {
 li img {
     width: 25px;
     height: 25px;
+}
+
+#google_logo {
+    margin: 28px auto;
+    width: fit-content;
+}
+
+input {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font: 16px sans-serif;
 }
